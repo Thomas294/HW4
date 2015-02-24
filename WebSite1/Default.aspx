@@ -29,9 +29,22 @@
 
     <p2> Enter After tax Deductions</p2>
         <asp:TextBox ID="tb_afterTaxDeductions" runat="server"></asp:TextBox>
+        <br />
+        <br />
+
 
         <asp:Button ID="bt_calculate" runat="server" Text="Calculate" />
+        <br />
+        <br />
+
         <asp:Button ID="bt_clear" runat="server" Text="Clear" />
+        <br />
+        <br />
+    <p2> Results</p2>
+        <asp:Label ID="lb_results" runat="server" Text="Label"></asp:Label>
+
+
+
     </div>
     </form>
 </body>
